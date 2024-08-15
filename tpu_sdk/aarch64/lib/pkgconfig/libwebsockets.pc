@@ -1,0 +1,11 @@
+prefix="/root/.jenkins/workspace/third_party/oss/install/libwebsockets"
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libwebsockets
+Description: Websockets server and client library
+Version: 4.1.7-t4.1.0
+
+Libs: -L${libdir} -lwebsockets
+Cflags: -I${includedir}
