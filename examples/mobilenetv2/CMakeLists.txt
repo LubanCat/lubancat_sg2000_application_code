@@ -6,6 +6,8 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS ON)
 
+message(STATUS "Using toolchain file: ${CMAKE_TOOLCHAIN_FILE}.")
+
 # tpu sdk
 set(TPU_SDK_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../../tpu_sdk/${TARGET_ARCH}/)
 include_directories(${TPU_SDK_PATH}/include)

@@ -9,11 +9,12 @@ LubanCat-P1板卡基于SG2000芯片的一款高性能、低功耗嵌入式板卡
 
 | 目录     | 说明 |
 | ----------- | ----------- |
-| cmake      | cmake文件       |
+| toolchain      | cmake文件       |
 | examples   | 教程配套例程        |
 | extra_example   | 教程配套例程        |
 | middleware   | middleware库        |
 | tdl_sdk   | tdl_sdk相关测试例程      |
+| opencv-mobile   | opencv-mobile库（Lubancat-P1）      |
 | tpu_sdk   | TPU相关库以及其他相关库       |
 
 
